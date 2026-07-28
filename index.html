@@ -5,7 +5,7 @@ body{margin:0;background:#000;color:#0f0;font-family:Arial;height:100vh;display:
 #clock{font-size:22vw;font-weight:bold}
 #btn{position:fixed;right:10px;bottom:10px;font-size:12px;padding:4px 8px;opacity:.6}
 </style>
-<div id=date>27/07/2026</div><div id=clock></div><button id=btn>Iniciar</button>
+<div id=date>26/07/2026</div><div id=clock></div><button id=btn>Iniciar</button>
 <script>
 let cur=23*3600+59*60,end=24*3600,t=null;
 function fmt(s){let h=Math.floor(s/3600)%24,m=Math.floor(s%3600/60),ss=s%60;return`${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(ss).padStart(2,"0")}`}
